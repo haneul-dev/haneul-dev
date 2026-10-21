@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,Menlo,monospace" width="985px" height="450px" font-size="16px">
+<style>
+@font-face { src: local('Consolas'), local('Consolas Bold'); font-family: 'ConsolasFallback'; font-display: swap; size-adjust: 109%; }
+.key {fill: #0369a1;} .value {fill: #24292f;} .cc {fill: #8c959f;}
+.sec {fill: #4f46e5; font-weight: bold;} .art {fill: #0284c7;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="450px" fill="#f6f8fa" rx="15"/>
+<text x="20" y="30" class="art">
+<tspan x="20" y="30">          \     |     /</tspan>
+<tspan x="20" y="50">       `.  .-&#x27;&#x27;&#x27;&#x27;&#x27;-.  .&#x27;</tspan>
+<tspan x="20" y="70">     --   /         \   --</tspan>
+<tspan x="20" y="90">     --  |           |  --</tspan>
+<tspan x="20" y="110">          \         /</tspan>
+<tspan x="20" y="130">       .&#x27;  &#x27;-.___.-&#x27;  `.</tspan>
+<tspan x="20" y="150">          /     |     \</tspan>
+<tspan x="20" y="170"></tspan>
+<tspan x="20" y="190">    v               v</tspan>
+<tspan x="20" y="210">           v</tspan>
+<tspan x="20" y="230"></tspan>
+<tspan x="20" y="250">          .--.</tspan>
+<tspan x="20" y="270">       .-(    )-.          .-.</tspan>
+<tspan x="20" y="290">      (___.__)___)     .-(    )-.</tspan>
+<tspan x="20" y="310">                      (___.__.___)_)</tspan>
+<tspan x="20" y="330"></tspan>
+<tspan x="20" y="350">   ~    ~     ~    ~     ~    ~</tspan>
+<tspan x="20" y="370">     ~     ~    ~     ~    ~</tspan>
+<tspan x="20" y="390">   ~    ~     ~    ~     ~    ~</tspan>
+<tspan x="20" y="410"></tspan>
+<tspan x="20" y="430">      h a n e u l  =  s k y</tspan>
+</text>
+<text x="400" y="30" fill="#24292f">
+<tspan x="400" y="30" class="sec">haneul@kang</tspan> -——————————————————————————————————————————————-
+<tspan x="400" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................................ </tspan><tspan class="value">macOS, Linux</tspan>
+<tspan x="400" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">3 years, 7 months, 20 days</tspan>
+<tspan x="400" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Dankook Univ. / Software Eng.</tspan>
+<tspan x="400" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">Backend &amp; AI Engineer</tspan>
+<tspan x="400" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">IntelliJ IDEA, VSCode, Android Studio</tspan>
+<tspan x="400" y="150" class="cc">. </tspan>
+<tspan x="400" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Programming</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Java, Python, Dart, JS, C</tspan>
+<tspan x="400" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan><tspan class="cc">.</tspan><tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Korean, English</tspan>
+<tspan x="400" y="210" class="cc">. </tspan>
+<tspan x="400" y="230" class="cc">. </tspan><tspan class="key">Stack</tspan><tspan class="cc">.</tspan><tspan class="key">Backend</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Spring Boot, JPA, MySQL, Redis, Kafka</tspan>
+<tspan x="400" y="250" class="cc">. </tspan><tspan class="key">Stack</tspan><tspan class="cc">.</tspan><tspan class="key">AI</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">RAG, Qwen2.5, Upstage Solar, Gemini</tspan>
+<tspan x="400" y="270" class="cc">. </tspan><tspan class="key">Stack</tspan><tspan class="cc">.</tspan><tspan class="key">Infra</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Docker, AWS, NHN Cloud</tspan>
+<tspan x="400" y="290" class="cc">. </tspan>
+<tspan x="400" y="310" class="sec">- Now</tspan> -————————————————————————————————————————————————————-
+<tspan x="400" y="330" class="cc">. </tspan><tspan class="key">Research</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Multimodal RAG / Evidence Decoder</tspan>
+<tspan x="400" y="350" class="cc">. </tspan><tspan class="key">Status</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Open to work (2027.02 grad)</tspan>
+<tspan x="400" y="370" class="cc">. </tspan>
+<tspan x="400" y="390" class="sec">- GitHub Stats</tspan> -———————————————————————————————————————————-
+<tspan x="400" y="410" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">18  |  Followers: 23</tspan>
+<tspan x="400" y="430" class="cc">. </tspan><tspan class="key">Commits (1y)</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">113  |  Contributions: 183</tspan>
+</text>
+</svg>

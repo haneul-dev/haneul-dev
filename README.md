@@ -1,97 +1,130 @@
-### 안녕하세요, 강하늘입니다
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7DD3FC,100:818CF8&height=180&section=header&text=Haneul%20Kang&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Backend%20%C2%B7%20AI%20Engineer&descSize=18&descAlignY=58" />
 
-단국대학교 소프트웨어학과에 다니고 있고(2027년 2월 졸업 예정), 백엔드와 LLM 서빙 쪽을 공부하고 있습니다.
+<p align="center">
+  <a href="https://github.com/haneul-dev">
+    <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+KR&weight=500&size=22&duration=3000&pause=1000&color=7DD3FC&center=true&vCenter=true&width=520&lines=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%2C+%EA%B0%95%ED%95%98%EB%8A%98%EC%9E%85%EB%8B%88%EB%8B%A4;Spring+Boot+%C2%B7+JPA+%C2%B7+Redis+%C2%B7+Kafka;RAG+%C2%B7+LLM+Serving+%C2%B7+Latency;Dankook+Univ.+Software+Engineering" />
+  </a>
+</p>
 
-저는 "빨라졌어요"보다 **"1.75초에서 1.30초가 됐어요"** 라고 말하는 쪽을 좋아합니다.
-그래서 뭘 만들든 측정 코드부터 붙여놓고 시작하는 편이에요.
-요즘은 RAG 파이프라인에서 근거를 꼼꼼하게 해석할수록 응답이 느려지는 문제를 붙잡고 있습니다.
-
-<br>
-
-### 지금 하고 있는 것
-
-**멀티모달 RAG — 계층형 근거 해석 디코더** · 연구실 프로젝트 · [`Multimodal_specialization_LLM`](https://github.com/haneul-dev/Multimodal_specialization_LLM/tree/haneul)
-
-검색된 텍스트·이미지·오디오 근거를 LLM에 통째로 넣지 않고, 모달별로 핵심만 뽑아서 합친 다음 최종 답변 모델에 넘기는 구조를 맡고 있습니다.
-LLM 모델을 고를 때도 감으로 정하지 않고 직접 재봤습니다.
-
-| 후보 | 평균 응답 | 지시 준수 |
-|---|---|---|
-| solar-mini | 5.89s | 출력 형식 위반 |
-| solar-pro2 | 1.75s | O |
-| **solar-pro3** | **1.30s** | O (json_schema strict 지원 → 파싱 재시도 0회) |
-
-솔직히 아직 숙제가 남아 있습니다. LLM을 1번 부르는 베이스라인이 1,030ms인데, 제가 만든 구조는 4번 불러서 4,401ms(+327%)가 나옵니다.
-이 격차를 줄이는 게 지금 제 연구 목표이고, `raw / no-integ / bypass / full` 4개 비교군으로 어디서 시간이 새는지 쪼개 보고 있어요.
-
-**RECRAG 생성 모듈 (Step 8~9)** · [`recrag-generation-module`](https://github.com/haneul-dev/recrag-generation-module)
-
-앞단에서 검색·재정렬된 문서를 받아 Qwen2.5-7B-Instruct로 근거 기반 설명을 만드는 모듈입니다.
-답변마다 참조한 Chunk ID와 Groundedness Note를 같이 내보내고, 생성 latency를 `t0~t5` 구간으로 나눠서 JSONL/CSV로 남기도록 했습니다.
-"어느 단계가 느린지"를 나중에 다시 묻지 않아도 되게 하는 게 목표였어요.
+<p align="center">
+  <img src="https://img.shields.io/badge/Dankook_Univ.-Software_Engineering-004E9A?style=flat-square" />
+  <img src="https://img.shields.io/badge/Graduation-2027.02-7DD3FC?style=flat-square" />
+  <img src="https://img.shields.io/badge/Open_to_work-Backend_%2F_AI-818CF8?style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=haneul-dev&style=flat-square&color=7DD3FC&label=VIEWS" />
+</p>
 
 <br>
 
-### 만든 것들
+<a href="https://github.com/haneul-dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haneul-dev/haneul-dev/main/dark_mode.svg">
+    <img alt="haneul@kang" src="https://raw.githubusercontent.com/haneul-dev/haneul-dev/main/light_mode.svg">
+  </picture>
+</a>
 
-**🎪 단짠 (DANZZAN) — 대학 축제 통합 플랫폼** · 캡스톤 · 4인 · [`DKU-Dan-Zzan`](https://github.com/DKU-Dan-Zzan)
+<br><br>
 
-인스타, 에브리타임, 구글폼, 현장 명단으로 흩어져 있던 축제 정보를 하나로 모은 서비스입니다. 티켓팅 대기열, 부스맵, 공지 기능이 들어가 있어요.
-`React` `Spring Boot` `Redis` `Kafka` `NHN Cloud` `AWS RDS/S3`
+## 🛠 Tech Stack
 
-- PWA 설정과 안드로이드 아이콘·스플래시 이슈를 맡아서 고쳤습니다. 기기마다 다르게 보이는 문제라 몇 번 되돌리면서 잡았어요.
-- 프론트 CI/CD에 카카오맵·Mapbox 환경변수가 빌드 때 주입되지 않던 문제를 해결했습니다.
-- 휴식기 동안 AWS 자원을 전부 내렸다가 다시 개발을 시작할 때, 개발/운영 환경 구조와 세팅 순서를 문서로 정리해서 팀원들이 각자 로컬에서 바로 시작할 수 있게 했습니다.
-
-**🛡️ npm Hallucination Detector** · 인공지능 보안 프로젝트 · [`repo`](https://github.com/haneul-dev/npm-hallucination-detector) · [라이브 데모](https://npm-hallucination-detector-gp9gffw4vvohhjqwj6gvbn.streamlit.app)
-
-LLM이 존재하지 않는 패키지명을 그럴듯하게 추천하면, 공격자가 그 이름을 선점해서 악성 패키지를 올려두는 공격(슬롭스쿼팅)이 있습니다.
-이걸 `npm install` 하기 **전에** 잡아내는 위험도 평가기를 만들었어요.
-
-- 이름 유사도, 메타데이터 등 9개 요소로 0~100점 위험도를 계산하고, 점수마다 근거를 추적할 수 있게 했습니다.
-- v1부터 v3c까지 5번 고쳐가며 **Precision 1.000 / False Positive Rate 0.000** 까지 끌어올렸습니다.
-- AI 도구를 많이 썼는데, 제안을 그대로 받지 않고 검증 → 수정 → 기각한 사례를 README에 따로 기록해뒀습니다.
-
-**🏠 RENTREE — 대학생 전용 안전 중고거래** · 백엔드 리드
-
-같은 학교 학생끼리만 거래하는 위치 기반 중고거래 플랫폼입니다.
-DB의 `CASCADE/RESTRICT` 제약 때문에 걸리던 락을 걷어내고 JPA 레벨에서 처리하도록 바꿔서 **API 응답 시간을 약 7배 줄였습니다.**
-
-**그 외**
-
-- **개인 일기 iOS 앱** — Flutter + Spring Boot로 만들어 App Store에 배포까지 했습니다. 디자인부터 사용자 피드백 반영까지 혼자 끝까지 가본 첫 경험이에요.
-- **AI 카드 추천 앱** — 거래 내역을 분석해서 소비 패턴에 맞는 카드를 추천합니다.
-- **RunPT** — TABA 팀 프로젝트 백엔드 ([`RunPT-BE`](https://github.com/haneul-dev/RunPT-BE))
+| | |
+|:--:|:--|
+| **Backend** | <img src="https://skillicons.dev/icons?i=java,spring,mysql,redis,kafka&theme=dark" /> |
+| **AI / Data** | <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn&theme=dark" /> |
+| **Frontend / App** | <img src="https://skillicons.dev/icons?i=react,ts,flutter,dart&theme=dark" /> |
+| **Infra / Tools** | <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,git,idea,vscode&theme=dark" /> |
 
 <br>
 
-### 제가 일하는 방식
+## 🚀 Projects
 
-- **숫자로 고르고, 숫자로 설명합니다.** 모델 하나, 쿼리 하나를 바꿔도 전후를 재서 남겨둡니다.
-- **AI가 쓴 코드도 제 코드처럼 검증합니다.** 돌아가는 것과 맞는 것은 다르다고 생각해요.
-- **남이 이어받을 수 있게 남깁니다.** 세팅 문서, 실험 config, README를 귀찮아도 씁니다. 다음 사람이 저한테 물어보지 않아도 되게요.
-- **쉽게 설명할 수 있어야 제대로 아는 거라고 믿습니다.** CJ올리브네트웍스 교육 멘토로 2기 연속 활동하면서 코딩을 처음 접하는 학생들을 가르쳤고, 동아리에서는 코딩테스트 스터디를 이끌었습니다.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎪 DANZZAN</h3>
+      <sub>대학 축제 통합 플랫폼 · 캡스톤 4인</sub><br><br>
+      티켓팅 대기열 · 부스맵 · 공지<br>
+      PWA · 프론트 CI/CD · 개발환경 구축<br><br>
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+      <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
+      <img src="https://img.shields.io/badge/NHN_Cloud-0066FF?style=flat-square" /><br><br>
+      <a href="https://github.com/DKU-Dan-Zzan">🔗 Organization</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ npm Hallucination Detector</h3>
+      <sub>LLM 환각 기반 공급망 공격(슬롭스쿼팅) 탐지</sub><br><br>
+      9개 요소 기반 0~100점 위험도 평가<br>
+      <b>Precision 1.000 · FPR 0.000</b><br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
+      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /><br><br>
+      <a href="https://github.com/haneul-dev/npm-hallucination-detector">🔗 Repo</a> · <a href="https://npm-hallucination-detector-gp9gffw4vvohhjqwj6gvbn.streamlit.app">▶ Live Demo</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 Hierarchical Evidence Decoder</h3>
+      <sub>멀티모달 RAG-LLM · 연구실 프로젝트</sub><br><br>
+      모달별 근거 추출 → 통합 → 최종 답변 디코더<br>
+      모델 latency 실측 기반 선정 (solar-pro3, 1.30s)<br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Upstage_Solar-805CFB?style=flat-square" />
+      <img src="https://img.shields.io/badge/RAG-7DD3FC?style=flat-square" /><br><br>
+      <a href="https://github.com/haneul-dev/Multimodal_specialization_LLM/tree/haneul">🔗 Repo</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📚 RECRAG Generation Module</h3>
+      <sub>RAG 생성 단계 (Step 8~9) · 연구실 프로젝트</sub><br><br>
+      Qwen2.5-7B 근거 기반 설명 생성<br>
+      Chunk ID 인용 · 구간별(t0~t5) latency 로깅<br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Qwen2.5--7B-615CED?style=flat-square" />
+      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /><br><br>
+      <a href="https://github.com/haneul-dev/recrag-generation-module">🔗 Repo</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏠 RENTREE</h3>
+      <sub>대학생 전용 위치 기반 중고거래 · 백엔드 리드</sub><br><br>
+      DB 락 최적화로 <b>API 응답 7배 개선</b><br><br>
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+      <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" />
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>📱 Diary App</h3>
+      <sub>개인 일기 iOS 앱 · 개인 프로젝트</sub><br><br>
+      기획부터 <b>App Store 배포</b>까지 1인 개발<br><br>
+      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+      <img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
 <br>
 
-### 기술
+## 📊 GitHub Stats
 
-```
-주로 씁니다     Java · Spring Boot · JPA · Python
-써봤습니다      React · Flutter · MySQL · Redis · Kafka · Docker · AWS(RDS, S3) · NHN Cloud
-LLM / RAG       Qwen2.5 · Upstage Solar · Gemini API · Streamlit
-```
-
-<br>
-
-### 그 밖의 경험
-
-- CJ ENM 전략기획 인턴 — 사용자 반응 데이터를 분석해서 서비스 기획안으로 만드는 일을 했습니다.
-- IT 동아리 운영진 2년 · 코딩테스트 스터디 리더
-- 앱 개발 경진 우수상
-- 베트남 다낭 해외 교육봉사
-- 소프트웨어 전공과 함께 영문학 과목을 공부했습니다. 그래서 그런지 문서 쓰는 걸 꽤 좋아합니다.
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=haneul-dev&show_icons=true&theme=github_dark&hide_border=true&bg_color=161b22&title_color=7DD3FC&icon_color=818CF8&text_color=c9d1d9&rank_icon=github&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=haneul-dev&layout=compact&theme=github_dark&hide_border=true&bg_color=161b22&title_color=7DD3FC&text_color=c9d1d9&langs_count=6" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=haneul-dev&theme=github-dark-blue&hide_border=true&background=161b22&ring=7DD3FC&fire=818CF8&currStreakLabel=7DD3FC" />
+</p>
 
 <br>
 
-<sub>금융 IT · 백엔드 · AI 엔지니어링 포지션을 찾고 있습니다. 이야기 나눠보고 싶으시면 편하게 연락 주세요.</sub>
+## 🏆 Experience
+
+| | |
+|:--|:--|
+| 💼 **CJ ENM** | 전략기획 인턴 · 사용자 데이터 분석 |
+| 🧑‍🏫 **CJ올리브네트웍스** | IT 교육 멘토 (2기 연속) |
+| 👥 **IT 동아리** | 운영진 2년 · 코딩테스트 스터디 리더 |
+| 🥇 **앱 개발 경진** | 우수상 |
+| 🌏 **베트남 다낭** | 해외 교육봉사 |
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:818CF8,100:7DD3FC&height=120&section=footer" />
