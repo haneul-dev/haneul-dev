@@ -40,27 +40,6 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ npm Hallucination Detector</h3>
-      <sub>LLM 환각 기반 공급망 공격(슬롭스쿼팅) 탐지 · 개인 프로젝트</sub><br><br>
-      9개 요소 기반 0~100점 위험도 평가<br>
-      <b>Precision 1.000 · FPR 0.000</b><br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
-      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /><br><br>
-      <a href="https://npm-hallucination-detector-gp9gffw4vvohhjqwj6gvbn.streamlit.app">▶ Live Demo</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧠 Hierarchical Evidence Decoder</h3>
-      <sub>멀티모달 RAG-LLM · 연구실 프로젝트</sub><br><br>
-      모달별 근거 추출 → 통합 → 최종 답변 디코더<br>
-      모델 latency 실측 기반 선정 (solar-pro3, 1.30s)<br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Upstage_Solar-805CFB?style=flat-square" />
-      <img src="https://img.shields.io/badge/RAG-7DD3FC?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h3>🎪 DANZZAN</h3>
       <sub>단국대 축제 통합 플랫폼 · 2026 봄·가을 축제 실운영 · 4인</sub><br><br>
       대학 최초 <b>네이버페이 페이스사인</b> 연동 티켓팅<br>
@@ -100,6 +79,26 @@
       <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
       <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" />
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ npm Hallucination Detector</h3>
+      <sub>LLM 환각 기반 공급망 공격(슬롭스쿼팅) 탐지 · 개인 프로젝트</sub><br><br>
+      9개 요소 기반 0~100점 위험도 평가<br>
+      <b>Precision 1.000 · FPR 0.000</b><br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
+      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 Hierarchical Evidence Decoder</h3>
+      <sub>멀티모달 RAG-LLM · 연구실 프로젝트</sub><br><br>
+      모달별 근거 추출 → 통합 → 최종 답변 디코더<br>
+      모델 latency 실측 기반 선정 (solar-pro3, 1.30s)<br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Upstage_Solar-805CFB?style=flat-square" />
+      <img src="https://img.shields.io/badge/RAG-7DD3FC?style=flat-square" />
     </td>
   </tr>
 </table>
