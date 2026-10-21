@@ -40,28 +40,15 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎪 DANZZAN</h3>
-      <sub>대학 축제 통합 플랫폼 · 캡스톤 4인</sub><br><br>
-      티켓팅 대기열 · 부스맵 · 공지<br>
-      PWA · 프론트 CI/CD · 개발환경 구축<br><br>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-      <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
-      <img src="https://img.shields.io/badge/NHN_Cloud-0066FF?style=flat-square" /><br><br>
-      <a href="https://github.com/DKU-Dan-Zzan">🔗 Organization</a>
-    </td>
-    <td width="50%" valign="top">
       <h3>🛡️ npm Hallucination Detector</h3>
-      <sub>LLM 환각 기반 공급망 공격(슬롭스쿼팅) 탐지</sub><br><br>
+      <sub>LLM 환각 기반 공급망 공격(슬롭스쿼팅) 탐지 · 개인 프로젝트</sub><br><br>
       9개 요소 기반 0~100점 위험도 평가<br>
       <b>Precision 1.000 · FPR 0.000</b><br><br>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
       <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /><br><br>
-      <a href="https://github.com/haneul-dev/npm-hallucination-detector">🔗 Repo</a> · <a href="https://npm-hallucination-detector-gp9gffw4vvohhjqwj6gvbn.streamlit.app">▶ Live Demo</a>
+      <a href="https://npm-hallucination-detector-gp9gffw4vvohhjqwj6gvbn.streamlit.app">▶ Live Demo</a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🧠 Hierarchical Evidence Decoder</h3>
       <sub>멀티모달 RAG-LLM · 연구실 프로젝트</sub><br><br>
@@ -69,21 +56,43 @@
       모델 latency 실측 기반 선정 (solar-pro3, 1.30s)<br><br>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/Upstage_Solar-805CFB?style=flat-square" />
-      <img src="https://img.shields.io/badge/RAG-7DD3FC?style=flat-square" /><br><br>
-      <a href="https://github.com/haneul-dev/Multimodal_specialization_LLM/tree/haneul">🔗 Repo</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📚 RECRAG Generation Module</h3>
-      <sub>RAG 생성 단계 (Step 8~9) · 연구실 프로젝트</sub><br><br>
-      Qwen2.5-7B 근거 기반 설명 생성<br>
-      Chunk ID 인용 · 구간별(t0~t5) latency 로깅<br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Qwen2.5--7B-615CED?style=flat-square" />
-      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /><br><br>
-      <a href="https://github.com/haneul-dev/recrag-generation-module">🔗 Repo</a>
+      <img src="https://img.shields.io/badge/RAG-7DD3FC?style=flat-square" />
     </td>
   </tr>
   <tr>
+    <td width="50%" valign="top">
+      <h3>🎪 DANZZAN</h3>
+      <sub>단국대 축제 통합 플랫폼 · 2026 봄·가을 축제 실운영 · 4인</sub><br><br>
+      대학 최초 <b>네이버페이 페이스사인</b> 연동 티켓팅<br>
+      관리자 페이지 · 공지 · 광고 배너 · 권한 분리<br>
+      NHN Object Storage 마이그레이션 · CI 구성<br><br>
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+      <img src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
+      <img src="https://img.shields.io/badge/NHN_Cloud-0066FF?style=flat-square" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏃 RunPT</h3>
+      <sub>AI 러닝 코칭 · 신체 배터리 서비스 · TABA 10기</sub><br><br>
+      BiLSTM 피로도(Battery Score) 예측 기반 러닝 추천<br>
+      백엔드 · 사용자 API · DB 정규화<br><br>
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+      <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📱 day1</h3>
+      <sub>일기 iOS 앱 · App Store 출시</sub><br><br>
+      Flutter 앱 개발 · 마이페이지 · 탈퇴 · 스플래시<br>
+      디자인 QA 대응<br><br>
+      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+      <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+      <img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white" />
+    </td>
     <td width="50%" valign="top">
       <h3>🏠 RENTREE</h3>
       <sub>대학생 전용 위치 기반 중고거래 · 백엔드 리드</sub><br><br>
@@ -91,14 +100,6 @@
       <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
       <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" />
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-    </td>
-    <td width="50%" valign="top">
-      <h3>📱 Diary App</h3>
-      <sub>개인 일기 iOS 앱 · 개인 프로젝트</sub><br><br>
-      기획부터 <b>App Store 배포</b>까지 1인 개발<br><br>
-      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-      <img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white" />
     </td>
   </tr>
 </table>
