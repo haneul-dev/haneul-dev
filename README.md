@@ -64,7 +64,7 @@
   <tr>
     <td width="50%" valign="top">
       <h3>📱 day1</h3>
-      <sub>일기 iOS 앱 · App Store 출시</sub><br><br>
+      <sub>일기 iOS 앱 · 9개월간 창업 · App Store 출시</sub><br><br>
       Flutter 앱 개발 · 마이페이지 · 탈퇴 · 스플래시<br>
       디자인 QA 대응<br><br>
       <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
