@@ -50,7 +50,7 @@ text, tspan {white-space: pre;}
 <tspan x="400" y="350" class="cc">. </tspan><tspan class="key">Status</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">Open to work: Cloud Service Planning</tspan>
 <tspan x="400" y="370" class="cc">. </tspan>
 <tspan x="400" y="390" class="sec">- GitHub Stats</tspan> -———————————————————————————————————————————-
-<tspan x="400" y="410" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">18  |  Followers: 23</tspan>
-<tspan x="400" y="430" class="cc">. </tspan><tspan class="key">Commits (1y)</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">124  |  Contributions: 196</tspan>
+<tspan x="400" y="410" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">8  |  Followers: 23</tspan>
+<tspan x="400" y="430" class="cc">. </tspan><tspan class="key">Commits (1y)</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">125  |  Contributions: 197</tspan>
 </text>
 </svg>
