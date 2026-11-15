@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7DD3FC,100:818CF8&height=180&section=header&text=Haneul%20Kang&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Backend%20%C2%B7%20AI%20Engineer&descSize=18&descAlignY=58" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7DD3FC,100:818CF8&height=180&section=header&text=Haneul%20Kang&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Cloud%20Service%20Planning%20%C2%B7%20Backend&descSize=18&descAlignY=58" />
 
 <p align="center">
   <a href="https://github.com/haneul-dev">
@@ -9,7 +9,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Dankook_Univ.-Software_Engineering-004E9A?style=flat-square" />
   <img src="https://img.shields.io/badge/Graduation-2027.02-7DD3FC?style=flat-square" />
-  <img src="https://img.shields.io/badge/Open_to_work-Backend_%2F_AI-818CF8?style=flat-square" />
+  <img src="https://img.shields.io/badge/Open_to_work-Cloud_Service_Planning-818CF8?style=flat-square" />
   <img src="https://komarev.com/ghpvc/?username=haneul-dev&style=flat-square&color=7DD3FC&label=VIEWS" />
 </p>
 
@@ -40,8 +40,8 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎪 DANZZAN</h3>
-      <sub>단국대 축제 통합 플랫폼 · 2026 봄·가을 축제 실운영 · 4인</sub><br><br>
+      <h3>🎪 <a href="https://github.com/DKU-Dan-Zzan">DANZZAN</a></h3>
+      <sub>단국대 축제 통합 플랫폼 · 2026 봄·가을 축제 실운영 · 4인 · 팀장</sub><br><br>
       <b>누적 사용자 6,000명 · 동시 접속 4,500명</b><br>
       대학 최초 <b>네이버페이 페이스사인</b> 연동 티켓팅<br>
       관리자 페이지 · 공지 · 광고 배너 · 권한 분리<br>
@@ -53,7 +53,19 @@
       <img src="https://img.shields.io/badge/NHN_Cloud-0066FF?style=flat-square" />
     </td>
     <td width="50%" valign="top">
-      <h3>🏃 RunPT</h3>
+      <h3>🏆 <a href="https://github.com/Yechan-Jo/easytone-ttobak">또박</a></h3>
+      <sub>이지톤 해커톤 <b>최우수상</b> · 4인 · 팀장</sub><br><br>
+      종이 문서를 촬영하면 핵심 정보와 할 일을<br>
+      쉬운 말과 음성으로 안내하는 문서 이해 서비스<br>
+      기획 총괄 · 고령자·외국인 사용자 배려 설계<br><br>
+      <img src="https://img.shields.io/badge/Upstage_Solar-805CFB?style=flat-square" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏃 <a href="https://github.com/TABA10-PAPI/RunPT-BE">RunPT</a></h3>
       <sub>AI 러닝 코칭 · 신체 배터리 서비스 · TABA 10기</sub><br><br>
       BiLSTM 피로도(Battery Score) 예측 기반 러닝 추천<br>
       백엔드 · 사용자 API · DB 정규화<br><br>
@@ -61,8 +73,26 @@
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
       <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" />
     </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/haneul-dev/npm-hallucination-detector">npm Hallucination Detector</a></h3>
+      <sub>LLM 환각 기반 공급망 공격(슬롭스쿼팅) 탐지 · 개인 프로젝트</sub><br><br>
+      9개 요소 기반 0~100점 위험도 평가<br>
+      <b>Precision 1.000 · FPR 0.000</b><br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
+      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+    </td>
   </tr>
   <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/haneul-dev/Multimodal_specialization_LLM">Hierarchical Evidence Decoder</a></h3>
+      <sub>멀티모달 RAG-LLM · 연구실 프로젝트</sub><br><br>
+      모달별 근거 추출 → 통합 → 최종 답변 디코더<br>
+      모델 latency 실측 기반 선정 (solar-pro3, 1.30s)<br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Upstage_Solar-805CFB?style=flat-square" />
+      <img src="https://img.shields.io/badge/RAG-7DD3FC?style=flat-square" />
+    </td>
     <td width="50%" valign="top">
       <h3>📱 day1</h3>
       <sub>일기 iOS 앱 · 9개월간 창업 · App Store 출시</sub><br><br>
@@ -73,6 +103,8 @@
       <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
       <img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=appstore&logoColor=white" />
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🏠 RENTREE</h3>
       <sub>대학생 전용 위치 기반 중고거래 · 백엔드 리드</sub><br><br>
@@ -81,26 +113,7 @@
       <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white" />
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛡️ npm Hallucination Detector</h3>
-      <sub>LLM 환각 기반 공급망 공격(슬롭스쿼팅) 탐지 · 개인 프로젝트</sub><br><br>
-      9개 요소 기반 0~100점 위험도 평가<br>
-      <b>Precision 1.000 · FPR 0.000</b><br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
-      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧠 Hierarchical Evidence Decoder</h3>
-      <sub>멀티모달 RAG-LLM · 연구실 프로젝트</sub><br><br>
-      모달별 근거 추출 → 통합 → 최종 답변 디코더<br>
-      모델 latency 실측 기반 선정 (solar-pro3, 1.30s)<br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Upstage_Solar-805CFB?style=flat-square" />
-      <img src="https://img.shields.io/badge/RAG-7DD3FC?style=flat-square" />
-    </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
